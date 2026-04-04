@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Legacy Towing",
+    "phone": "555-tow-r94",
+    "category": "towing",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  "design": {
+    "preset": {
+      "id": "towing-heritage-craft",
+      "categoryGroup": "towing",
+      "name": "Heritage Craft",
+      "recipeFile": "towing/heritage-craft.astro",
+      "colors": {
+        "primary": "#7C4A3A",
+        "primaryDark": "#4a2c23",
+        "primaryLight": "#d1c0ba",
+        "secondary": "#693f31",
+        "accent": "#7C4A3A",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#693f31",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "towing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Tulsa's Trusted Towing Team",
+      "heroSubline": "24/7 emergency towing when you need it most. We handle breakdowns, accidents, and impounds across Tulsa County with speed and care.",
+      "aboutTitle": "Legacy Towing: Tulsa's Reliable Roadside Partner",
+      "aboutText": [
+        "Since 2012, Legacy Towing has been pulling Tulsa drivers out of tough spots. Founded by two brothers who grew up fixing cars in Brookside, we understand how crucial reliable transport is in our sprawling metro.",
+        "Our drivers train for Oklahoma's extreme weather - from summer blowouts to winter slide-offs. No fancy gimmicks, just fast hooks and honest service when you're stranded on Route 66 or I-44.",
+        "We sponsor little league teams in Maple Ridge and donate impound auction proceeds to Tulsa's emergency weather shelters. When tornado season hits, our fleet's first on scene clearing debris."
+      ],
+      "valueProps": [
+        {
+          "title": "15-Minute Average Response",
+          "description": "GPS-tracked trucks mean we reach you faster, whether you're downtown or stuck on the BA Expressway."
+        },
+        {
+          "title": "All-Weather Recovery",
+          "description": "Specialized equipment for ice storm slide-offs and flood rescues across Green Country."
+        },
+        {
+          "title": "Fair Upfront Pricing",
+          "description": "No surprise fees - we quote your tow before hooking, with price locks for Tulsa County."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "Drivers born and raised here know every alley in the Blue Dome District and backroad to Broken Arrow."
+        }
+      ],
+      "ctaHeadline": "Need a Tow Right Now?",
+      "ctaSubline": "Call 555-TOW-R94 for immediate dispatch. We'll get you moving before your coffee goes cold."
+    },
+    "services": [
+      {
+        "slug": "emergency-towing",
+        "name": "Emergency Towing",
+        "shortDescription": "24/7 accident recovery and breakdown towing across Tulsa County.",
+        "description": "When your car quits on the I-244 on-ramp or you're in a fender-bender near Woodland Hills Mall, we're the team Tulsa calls. Our heavy-duty wreckers can extract vehicles from ditches after ice storms or haul SUVs that overheated in Riverside Drive traffic.\n\nAll drivers carry Oklahoma DOT certifications and trauma kits. We coordinate directly with Tulsa PD at accident scenes to clear roads faster. From Priuses to lifted trucks stuck under low bridges in the Brady Arts District, our fleet handles it.",
+        "process": [
+          "Step 1: Call our dispatch with your exact location - we'll ping your phone if you're unsure",
+          "Step 2: Describe your vehicle and situation (accident, mechanical failure, etc)",
+          "Step 3: Receive ETA and upfront quote - no guessing",
+          "Step 4: Driver arrives with proper equipment for your specific vehicle type"
+        ],
+        "benefits": [
+          "Police-recommended for accident scenes",
+          "Flatbed options for AWD/classic cars",
+          "Direct billing to most Tulsa insurance providers",
+          "After-hours lockout service add-on"
+        ],
+        "faq": [
+          {
+            "question": "Do you tow motorcycles involved in accidents?",
+            "answer": "Yes - we dispatch specialized bike lifts with wheel chocks and ratchet straps. Our team has recovered bikes from Route 66 to the Okmulgee backroads."
+          },
+          {
+            "question": "What if my car's blocking traffic on 71st Street?",
+            "answer": "Call us first - as city contractors, we prioritize congested areas and can often beat police response times during rush hour."
+          }
+        ]
+      },
+      {
+        "slug": "long-distance-towing",
+        "name": "Long Distance Towing",
+        "shortDescription": "Reliable interstate transport from Tulsa to anywhere in Oklahoma.",
+        "description": "Moving a college student's car to Stillwater? Hauling an auction find back from McAlester? Our Oklahoma-licensed drivers handle cross-state tows with care. We secure vehicles properly for Turner Turnpike winds and monitor weather alerts when crossing tornado-prone areas like Creek County.\n\nUnlike national chains, we're based right here in Tulsa - meaning no depot delays when you need to retrieve your vehicle. Our enclosed trailers protect classics during dust storm season, while heavy-duty rigs manage farm equipment from Pawnee to Pryor.",
+        "process": [
+          "Step 1: Provide pickup/dropoff ZIP codes and vehicle details",
+          "Step 2: Receive binding quote with fuel surcharge waiver for Oklahoma routes",
+          "Step 3: Schedule flexible pickup window (we'll call 30 mins out)",
+          "Step 4: Track your tow via text updates until delivery"
+        ],
+        "benefits": [
+          "DOT-approved mileage logs",
+          "Overnight parking at our secure Tulsa lot",
+          "Competitive rates versus national carriers",
+          "1-year guarantee on transport damage"
+        ],
+        "faq": [
+          {
+            "question": "Can you tow from Tulsa to Dallas?",
+            "answer": "We specialize in Oklahoma routes, but can arrange Texas transfers through trusted partners - ask about our Red River package."
+          },
+          {
+            "question": "Do you transport non-running vehicles?",
+            "answer": "Absolutely - our wheel-lift systems move cars without start capability. Just note any leak risks upfront."
+          }
+        ]
+      },
+      {
+        "slug": "impound-recovery",
+        "name": "Impound Recovery",
+        "shortDescription": "Fast, discreet vehicle retrieval from Tulsa-area impound lots.",
+        "description": "Whether your car was towed from a Cherry Street parking spot or seized as evidence in a Rogers County case, we know the drill. Our team handles paperwork at all major Tulsa impound facilities, including the city yard off Admiral and private lots near 51st & Memorial.\n\nWe negotiate storage fee reductions when possible and provide affidavit services for wrongfully towed vehicles. For DUIs or other sensitive situations, we offer after-hours pickup to maintain privacy. Need a ride to the lot? Our retrieval package includes round-trip transport in our service van.",
+        "process": [
+          "Step 1: Verify your vehicle's location with Tulsa PD or our dispatch",
+          "Step 2: Email/fax us your registration and ID for pre-clearance",
+          "Step 3: Pay fees directly through our secure portal (we cover cash-only lots)",
+          "Step 4: We deliver your car to any Tulsa address with full documentation"
+        ],
+        "benefits": [
+          "Knows all Tulsa-area impound requirements",
+          "Can often reduce storage days",
+          "Handles police evidence holds",
+          "No judgment - just solutions"
+        ],
+        "faq": [
+          {
+            "question": "My car was towed from a private lot in Brookside - now what?",
+            "answer": "We track all private impounds daily. Provide the street address and we'll locate your vehicle within hours, not days."
+          },
+          {
+            "question": "Can you get my truck out of police impound same-day?",
+            "answer": "For non-evidence holds, usually yes. We're on rotation with TPD and can expedite most releases before shift change at 3PM."
+          }
+        ]
+      },
+      {
+        "slug": "heavy-duty-recovery",
+        "name": "Heavy Duty Recovery",
+        "shortDescription": "Industrial towing for work trucks, RVs, and equipment in Green Country.",
+        "description": "When your dump truck buries itself in a Jenks construction site or your RV jams on a steep Keystone Lake access road, standard wreckers won't cut it. Our 50-ton rotators and Landoll trailers handle Oklahoma's toughest recoveries.\n\nWe're the call Tulsa contractors make after oilfield blowouts near Cushing or when combines get stuck in Osage County mud. Our recovery specialists train monthly on new equipment - including how to upright overturned semis on icy Will Rogers Turnpike curves without further damage.",
+        "process": [
+          "Step 1: Describe your stuck vehicle/equipment and terrain",
+          "Step 2: We dispatch appropriate rig - often within the hour",
+          "Step 3: On-site assessment with digital report to your insurance",
+          "Step 4: Recovery using minimal-force techniques to prevent damage"
+        ],
+        "benefits": [
+          "Certified for hazardous material incidents",
+          "Oklahoma Corporation Commission permits on file",
+          "Works directly with fleet managers",
+          "Tarping/sealing for spill containment"
+        ],
+        "faq": [
+          {
+            "question": "Can you recover a tractor-trailer stuck in sand at Keystone Lake?",
+            "answer": "Done it before - our tracked recovery vehicle handles loose terrain that would sink conventional wreckers."
+          },
+          {
+            "question": "Do you service oil sites near Drumright?",
+            "answer": "Yes - we maintain special permits for refinery zone recoveries and carry explosion-proof equipment."
+          }
+        ]
+      },
+      {
+        "slug": "classic-car-transport",
+        "name": "Classic Car Transport",
+        "shortDescription": "White-glove moving for collectibles and vintage vehicles in Oklahoma.",
+        "description": "Transporting your restored '57 Thunderbird to the Brady Arts car show? Moving Grandpa's Model A to your Broken Arrow garage? We treat classics like our own - which is why Tulsa collectors trust us.\n\nOur enclosed trailers feature air-ride suspension and climate control for paint protection during humid Oklahoma summers. Drivers use soft straps and wheel nets, never chains. Need to ship to Barrett-Jackson? We coordinate door-to-door with Arizona partners, handling all COTUS paperwork at our Tulsa office.",
+        "process": [
+          "Step 1: Share photos of your vehicle's clearance and delicate areas",
+          "Step 2: We create a custom loading plan (ramp vs liftgate)",
+          "Step 3: Conduct pre-transport walkthrough video together",
+          "Step 4: Secure with museum-grade restraints and monitor humidity en route"
+        ],
+        "benefits": [
+          "$1M cargo insurance standard",
+          "Former Pebble Beach transporters on staff",
+          "Discreet loading/unloading",
+          "Garage-to-garage service"
+        ],
+        "faq": [
+          {
+            "question": "How do you protect chrome during Oklahoma's winter road treatments?",
+            "answer": "We apply temporary protective film before transport and wash vehicles at our detail bay upon delivery - no salt residue left behind."
+          },
+          {
+            "question": "Can you store my Corvette until the Tulsa Rod Show?",
+            "answer": "Yes - our climate-controlled warehouse near 41st & Yale has 24/7 security and weekly battery tenders."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Emergency Towing",
+        "text": "Flat tire on the BA Expressway during rush hour - Legacy had me hooked up before the highway patrol even arrived. Driver knew exactly how to position the truck to block traffic safely. Will never call anyone else in Tulsa.",
+        "date": "2025-01-15"
+      },
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Impound Recovery",
+        "text": "My Civic got towed from a sketchy lot near the Blue Dome District. These guys not only found it fast but argued the fees down since the signage wasn't legit. Delivered it to my apartment with a full tank - unheard of service.",
+        "date": "2025-02-22"
+      },
+      {
+        "name": "Ricky L.",
+        "rating": 5,
+        "service": "Heavy Duty Recovery",
+        "text": "Our dump truck sunk to the axles at a Sand Springs job site. Legacy's rotator pulled it out without tearing up the fresh asphalt. Their operator even stayed to help spread gravel where we got stuck. Tulsa's only call for serious recoveries.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Sheryl B.",
+        "rating": 5,
+        "service": "Classic Car Transport",
+        "text": "Entrusted them with my '69 Camaro SS for the trip from Claremore to Tulsa. They padded every inch of the trailer and sent photo updates at each stop. Arrived cleaner than when it left. These guys understand car people.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Long Distance Towing",
+        "text": "Needed my son's college beater hauled from OU back to Tulsa after it died. Quote beat uShip by $200 and they picked it up same-day. Driver texted me the whole way - even stopped to check the straps when that tornado warning hit Chandler.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Emergency Towing",
+        "text": "Hit black ice on 169 near Mohawk Park and ended up in the median. Dispatcher stayed on the line until help arrived, and the driver had hot coffee waiting. They knew exactly which Tulsa body shop could take my CR-V immediately.",
+        "date": "2024-12-14"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "24/7 Towing Services in Tulsa, OK | Legacy Towing",
+        "description": "Emergency towing, accident recovery & roadside assistance across Tulsa County. Fast response, upfront pricing - call 555-TOW-R94 now."
+      },
+      "about": {
+        "title": "About Legacy Towing - Tulsa's Trusted Tow Company",
+        "description": "Locally owned towing service serving Tulsa since 2012. Police-recommended for accident recovery and impound services with 24/7 availability."
+      },
+      "services": {
+        "title": "Tulsa Towing Services | Emergency & Long Distance",
+        "description": "Complete towing solutions in Tulsa - from motorcycle recovery to heavy-duty industrial towing. Immediate dispatch 365 days a year."
+      },
+      "contact": {
+        "title": "Contact Legacy Towing | Tulsa Roadside Assistance",
+        "description": "Need urgent towing in Tulsa? Call 555-TOW-R94 for 24/7 service. Fast response for accidents, breakdowns and lockouts."
+      },
+      "reviews": {
+        "title": "Legacy Towing Reviews | Tulsa Customer Experiences",
+        "description": "See why Tulsa drivers rate our towing services 5 stars. Real customer stories about emergency response and fair pricing."
+      },
+      "service-areas": {
+        "title": "Tulsa Towing Service Areas | Surrounding Cities",
+        "description": "We cover all Tulsa neighborhoods and surrounding OK communities. Immediate dispatch to your exact location."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Tulsa",
+        "slug": "tulsa-ok",
+        "state": "OK",
+        "content": "Legacy Towing proudly serves the Tulsa area with reliable and professional towing services. Whether you're stranded on the side of the road or need a tow to a local repair shop, our team is available 24/7 to assist you. Tulsa's busy highways and urban streets require prompt service, and we're committed to getting you back on the road quickly and safely. Our experienced drivers know the city well, ensuring efficient service no matter where you are.",
+        "localContext": "Tulsa is Oklahoma's second-largest city, known for its vibrant arts scene and bustling downtown.",
+        "nearbyAreas": [
+          "Broken Arrow",
+          "Sand Springs",
+          "Jenks"
+        ]
+      },
+      {
+        "city": "Broken Arrow",
+        "slug": "broken-arrow-ok",
+        "state": "OK",
+        "content": "Legacy Towing provides fast and dependable towing services in Broken Arrow, ensuring residents and visitors receive prompt assistance. From minor breakdowns to major accidents, our team is equipped to handle all towing needs with care. Broken Arrow's growing community relies on us for roadside assistance, and we take pride in delivering top-notch service every time.",
+        "localContext": "Broken Arrow is one of Tulsa's fastest-growing suburbs, offering a mix of suburban charm and modern amenities.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Bixby",
+          "Coweta"
+        ]
+      },
+      {
+        "city": "Sand Springs",
+        "slug": "sand-springs-ok",
+        "state": "OK",
+        "content": "Legacy Towing is your trusted towing provider in Sand Springs, offering reliable service when you need it most. Whether you're stuck on Highway 412 or need a tow from a local parking lot, our team is ready to help. Sand Springs residents count on us for quick response times and professional service, ensuring peace of mind during stressful situations.",
+        "localContext": "Sand Springs is a historic city along the Arkansas River, known for its scenic parks and small-town feel.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Sapulpa",
+          "Jenks"
+        ]
+      },
+      {
+        "city": "Jenks",
+        "slug": "jenks-ok",
+        "state": "OK",
+        "content": "Legacy Towing serves Jenks with dependable towing and roadside assistance tailored to the community's needs. Whether you're near the Riverwalk or on the Creek Turnpike, our team is just a call away. Jenks' busy streets and highways require expert towing services, and we're here to provide fast, courteous help whenever you need it.",
+        "localContext": "Jenks is a thriving suburb known for its excellent schools and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Broken Arrow",
+          "Bixby"
+        ]
+      },
+      {
+        "city": "Bixby",
+        "slug": "bixby-ok",
+        "state": "OK",
+        "content": "Legacy Towing offers professional towing services in Bixby, ensuring residents and travelers receive prompt assistance. Whether you're on Memorial Drive or near the Arkansas River, our team is ready to help. Bixby's expanding roadways demand reliable towing, and we're committed to delivering exceptional service with a personal touch.",
+        "localContext": "Bixby is a rapidly growing community with a blend of rural charm and suburban convenience.",
+        "nearbyAreas": [
+          "Broken Arrow",
+          "Jenks",
+          "Tulsa"
+        ]
+      },
+      {
+        "city": "Owasso",
+        "slug": "owasso-ok",
+        "state": "OK",
+        "content": "Legacy Towing provides top-quality towing services in Owasso, helping drivers in need with efficiency and care. Whether you're on Highway 169 or in a neighborhood, our team is available around the clock. Owasso's busy roads require dependable towing, and we pride ourselves on being the go-to service for locals and visitors alike.",
+        "localContext": "Owasso is a thriving suburb with excellent schools and a strong sense of community.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Collinsville",
+          "Claremore"
+        ]
+      },
+      {
+        "city": "Sapulpa",
+        "slug": "sapulpa-ok",
+        "state": "OK",
+        "content": "Legacy Towing is Sapulpa's trusted towing provider, offering reliable service for breakdowns, accidents, and more. Whether you're on Route 66 or near the Turner Turnpike, our team is ready to assist. Sapulpa's mix of historic charm and modern infrastructure makes our local knowledge invaluable for efficient towing.",
+        "localContext": "Sapulpa is a historic city with a rich Route 66 heritage and a close-knit community.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Sand Springs",
+          "Kellyville"
+        ]
+      },
+      {
+        "city": "Claremore",
+        "slug": "claremore-ok",
+        "state": "OK",
+        "content": "Legacy Towing serves Claremore with dependable towing and roadside assistance, ensuring help is always nearby. Whether you're on Will Rogers Boulevard or Highway 20, our team is just a call away. Claremore's scenic routes and busy highways require expert towing, and we're proud to be the local choice for reliable service.",
+        "localContext": "Claremore is a charming city known for its historic downtown and ties to Will Rogers.",
+        "nearbyAreas": [
+          "Owasso",
+          "Catoosa",
+          "Chelsea"
+        ]
+      },
+      {
+        "city": "Catoosa",
+        "slug": "catoosa-ok",
+        "state": "OK",
+        "content": "Legacy Towing provides fast and professional towing services in Catoosa, ensuring residents and travelers receive prompt assistance. Whether you're near the Hard Rock Casino or on Interstate 44, our team is ready to help. Catoosa's high-traffic areas demand reliable towing, and we're committed to delivering exceptional service.",
+        "localContext": "Catoosa is a small city with major attractions like the Hard Rock Hotel & Casino.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Claremore",
+          "Owasso"
+        ]
+      },
+      {
+        "city": "Coweta",
+        "slug": "coweta-ok",
+        "state": "OK",
+        "content": "Legacy Towing offers dependable towing services in Coweta, helping drivers in need with efficiency and care. Whether you're on Highway 51 or in a residential area, our team is available 24/7. Coweta's rural and suburban mix requires adaptable towing solutions, and we're proud to serve this growing community.",
+        "localContext": "Coweta is a small city with a strong agricultural heritage and a family-friendly vibe.",
+        "nearbyAreas": [
+          "Broken Arrow",
+          "Bixby",
+          "Porter"
+        ]
+      },
+      {
+        "city": "Collinsville",
+        "slug": "collinsville-ok",
+        "state": "OK",
+        "content": "Legacy Towing is Collinsville's trusted towing provider, offering reliable service for breakdowns and accidents. Whether you're on Highway 20 or near the Verdigris River, our team is ready to assist. Collinsville's mix of rural roads and busy highways makes our local expertise essential for prompt towing.",
+        "localContext": "Collinsville is a small town with a historic downtown and a strong community spirit.",
+        "nearbyAreas": [
+          "Owasso",
+          "Tulsa",
+          "Claremore"
+        ]
+      },
+      {
+        "city": "Glenpool",
+        "slug": "glenpool-ok",
+        "state": "OK",
+        "content": "Legacy Towing serves Glenpool with professional towing and roadside assistance, ensuring help is always nearby. Whether you're on Highway 75 or in a neighborhood, our team is just a call away. Glenpool's growing infrastructure requires dependable towing, and we're proud to be the local choice for reliable service.",
+        "localContext": "Glenpool is a small city with a rich oil history and a close-knit community.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Bixby",
+          "Jenks"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-towing": "/images/service-emergency-towing.webp",
+      "long-distance-towing": "/images/service-long-distance-towing.webp",
+      "impound-recovery": "/images/service-impound-recovery.webp",
+      "heavy-duty-recovery": "/images/service-heavy-duty-recovery.webp",
+      "classic-car-transport": "/images/service-classic-car-transport.webp"
+    },
+    "servicesResponsive": {
+      "emergency-towing": {
+        "src": "/images/service-emergency-towing.webp",
+        "srcset": "/images/service-emergency-towing-400w.webp 400w, /images/service-emergency-towing-800w.webp 800w, /images/service-emergency-towing-1200w.webp 1200w, /images/service-emergency-towing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "long-distance-towing": {
+        "src": "/images/service-long-distance-towing.webp",
+        "srcset": "/images/service-long-distance-towing-400w.webp 400w, /images/service-long-distance-towing-800w.webp 800w, /images/service-long-distance-towing-1200w.webp 1200w, /images/service-long-distance-towing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "impound-recovery": {
+        "src": "/images/service-impound-recovery.webp",
+        "srcset": "/images/service-impound-recovery-400w.webp 400w, /images/service-impound-recovery-800w.webp 800w, /images/service-impound-recovery-1200w.webp 1200w, /images/service-impound-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heavy-duty-recovery": {
+        "src": "/images/service-heavy-duty-recovery.webp",
+        "srcset": "/images/service-heavy-duty-recovery-400w.webp 400w, /images/service-heavy-duty-recovery-800w.webp 800w, /images/service-heavy-duty-recovery-1200w.webp 1200w, /images/service-heavy-duty-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "classic-car-transport": {
+        "src": "/images/service-classic-car-transport.webp",
+        "srcset": "/images/service-classic-car-transport-400w.webp 400w, /images/service-classic-car-transport-800w.webp 800w, /images/service-classic-car-transport-1200w.webp 1200w, /images/service-classic-car-transport.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
